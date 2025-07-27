@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kdê meu dinheiro - Rápido, simples e seguro </title>
+    <link href="css/my-custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="static/css/my-custom.css" rel="stylesheet">
+</head>
+
+<body>
+    <header> <!-- parte superior do site-->
+        <!-- Representa o conteudo introdutorio de uma secção ou do documento, geralmente titulos, logos e navegação-->
+        <nav class="navbar navbar-expand-lg bg-primary pe-4">
+            <div class="container-fluid d-flex justify-content-evenly">
+                <a class="navbar-brand ms-5" href="index.html"> <img src="assets/img/g_logo.png" alt="Exemplo de imagem"
+                        style="width: 160px;  height: auto;"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fs-1"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
+                        <li class="nav-item mx-lg-4 ">
+                            <a class="nav-link link-info fs-5" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-lg-4">
+                            <a class="nav-link link-info fs-5" id="link-primary-color" href="planos.html">Planos</a>
+                        </li>
+                        <li class="nav-item mx-lg-4">
+                            <a class="nav-link link-info fs-5" href="Contato.html">Contato</a>
+                        </li>
+                    </ul>
+
+                    <div class="col text-lg-end text-start d-flex justify-content-end align-items-center ">
+                        <a class="btn btn-info px-5 py-2 fs-5" href="Cadastrar_cliente.html">Testar Agora</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class=" text-info container-fluid bg-secondary d-flex flex-column  py-5">
+
+        <p class=" display-4 text-center fw-bold m-0">Login</p>
+        <p class="h5 m-0 text-center"> Acesse a sua conta:</p>
+        <form class="col-9 col-lg-5  col-md-7 mx-auto fs-4">
+            <div class=" mt-4 mb-3">
+                <label class="form-label m-0" for="exampleInputEmail1">E-mail</label>
+                <input class="form-control mt-0" style="height: 45px;" type="email" id="exampleInputEmail1" required />
+            </div>
+            <div class=" mb-3">
+                <label class="form-label m-0">Senha</label>
+                <input class="form-control mt-0" style="height: 45px;" type="password" required />
+            </div>
+            <div class="d-grid gap-2 mt-5 pb-1">
+                <button type="submit" class="btn btn-info">Acessar</button>
+                <a class="link-info text-decoration-none fs-5 text-end" href="recuperar-senha.html">Esqueceu a sua
+                    senha?</a>
+                <a class="link-info text-decoration-none fs-5 text-end" href="Cadastrar_cliente.html">Não tem uma conta?
+                    Cadastre-se!</a>
+            </div>
+            <div class="col-12 mt-5 pb-5" style="height: 45px;">
+                <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dgoogle%2Bgmail%26rlz%3D1C1BNSD_pt-BRBR1121BR1121%26oq%3Dgoogle%2Bgmail%26gs_lcrp%3DEgZjaHJvbWUyBggAEEUYOTIGCAEQRRhA0gEINDIzOGowajGoAgCwAgA%26sourceid%3Dchrome%26ie%3DUTF-8%26sei%3DEwd8aK2FFYeI4dUP1PLzkQQ&ec=GAZAAQ&hl=pt-BR&ifkv=AdBytiNoNVumZxkedeYne_yOCqntMs6x2RDH2K6erPb-kpwimoIsrSxxrC4BMdB82YzA34YCfSN2DA&passive=true&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-2044466028%3A1752958741624702"
+                    class="btn btn-primary w-100">Entrar com o google<img class="img-fluid ms-2"
+                        src="img/logo_google_G.svg" /></a>
+            </div>
+        </form>
+    </main>
+
+    <footer class=" bg-dark p-5 text-light">
+        <div class="row ">
+            <div class="d-flex d-flex flex-column justify-content-center align-items-center">
+                <div class="top-footer">
+                    <a href="#" aria-label="Instagram" class="link-light text-decoration-none me-lg-3"><i
+                            class="bi bi-instagram text-color pe-2 fs-1"></i></a>
+                    <a href="#" aria-label="facebook" class="link-light text-decoration-none"><i
+                            class="bi bi-facebook text-color  pe-2 fs-1"></i></a>
+                </div>
+                <div class="d-flex flex-row ">
+                    <a href="Contato.html" aria-label="Instagram" class="link-light text-decoration-none me-lg-3">
+                        <p>Contato</p>
+                    </a>
+                    <a href="#" aria-label="facebook" class="link-light text-decoration-none">
+                        <p>Home</p>
+                    </a>
+                </div>
+                <p class="mt-0"> kdê Meu Dinheiro é um Projeto acadêmico</p>
+                <span class="border-top border-light border-1 w-75"></span>
+                <p class="mt-2 ">&copy; Desenvoldido por Thiago Tomaz 2025 </p>
+
+            </div>
+        </div>
+
+        </div>
+
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
