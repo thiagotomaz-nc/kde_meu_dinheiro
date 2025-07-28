@@ -6,14 +6,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-@font-face {
-  font-family: 'Hind-Regular';
-  src:
-    url('../../fons/Hind-Regular.ttf') format('truetype'),
-    url('../../fonts/Hind-Light.ttf') format('truetype'),
-    url('../../fonts/Hind-Bold.ttf') format('truetype'),
-    url('../../fonts/Hind-Medium.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Hind:wght@300;400;500;600;700&family=Noto+Sans+Symbols:wght@100..900&display=swap');
 
 
 
@@ -86,8 +79,9 @@
   --bs-link-hover-color: #0a58ca;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
-  --bs-nav-link-font-size: calc(1.275rem + 0.3vw);/* fs-3 calc(1.3rem + 0.6vw); | fs-4 calc(1.275rem + 0.3vw);*/
-  
+  --bs-nav-link-font-size: calc(1.275rem + 0.3vw);
+  /* fs-3 calc(1.3rem + 0.6vw); | fs-4 calc(1.275rem + 0.3vw);*/
+
 }
 
 *,
@@ -3378,8 +3372,8 @@ fieldset:disabled .btn {
   --bs-btn-color: #fff;
   --bs-btn-bg: var(--bs-secondary);
   --bs-btn-border-color: var(--bs-secondary);
-  --bs-btn-hover-color: var(--bs-warning);
-  --bs-btn-hover-bg: var(--bs-secondary);
+  --bs-btn-hover-color: var(--bs-light);
+  --bs-btn-hover-bg: var(--bs-primary);
   --bs-btn-hover-border-color: var(--bs-primary);
   --bs-btn-focus-shadow-rgb: 130, 138, 145;
   --bs-btn-active-color: #fff;
@@ -4218,7 +4212,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
-  font-size: var(--bs-nav-link-font-size); 
+  font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
   color: var(--bs-nav-link-color);
   text-decoration: none;
@@ -8255,7 +8249,7 @@ fieldset:disabled .btn {
 
 .border-primary {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(var(--bs-primary), var(--bs-border-opacity)) !important;
 }
 
 .border-secondary {
@@ -8265,22 +8259,22 @@ fieldset:disabled .btn {
 
 .border-success {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(var(--bs-success), var(--bs-border-opacity)) !important;
 }
 
 .border-info {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-info-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(var(--bs-info), var(--bs-border-opacity)) !important;
 }
 
 .border-warning {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-warning-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(var(--bs-warning), var(--bs-border-opacity)) !important;
 }
 
 .border-danger {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-danger-rgb), var(--bs-border-opacity)) !important;
+  border-color: rgba(var(--bs-danger), var(--bs-border-opacity)) !important;
 }
 
 .border-light {

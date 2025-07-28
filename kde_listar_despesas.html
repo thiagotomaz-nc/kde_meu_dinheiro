@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kdê meu dinheiro - Rápido, simples e seguro </title>
+    <link rel="icon" type="image/png" href="assets/img/g_logo_title.png">
     <link href="css/my-custom.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="static/css/my-custom.css" rel="stylesheet">
@@ -25,7 +26,7 @@
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <div
                         class="col text-lg-end text-start d-lg-flex  flex-lg-row justify-content-lg-end  align-items-lg-center d-flex flex-column  align-items-start ">
-                        <a class="text-info text-decoration-none me-4 fs-4">
+                        <a class="text-info text-decoration-none me-4 fs-4 fw-lighter">
                             <i class="bi bi-person-circle text-color pe-2"></i>Bem-vindo Usuário</a>
                         <a class="link-info me-4 text-decoration-none fs-4" href="index.html">
                             <i class="bi bi-box-arrow-left pe-2"></i>sair</a>
@@ -46,10 +47,10 @@
 
         <section>
             <div class=" mt-4 d-flex justify-content-evenly align-items-center">
-                <a href="" class="btn btn-primary">
+                <a href="" class="btn btn-primary fs-4">
                     <</a>
-                        <h1 class="mx-5 my-auto text-dark"> julho</h1>
-                        <a href="" class="btn btn-primary">></a>
+                        <h1 class="mx-5 my-auto text-dark fs-1"> julho</h1>
+                        <a href="" class="btn btn-primary fs-4">></a>
             </div>
         </section>
 
@@ -67,10 +68,15 @@
             </div>
 
         </section>
+        <section class="botoes mx-5 mx-lg-5 fs-4 my-3 mb-lg-5 mb-md-5">
+            <button class="btn btn-primary"><a class="text-decoration-none text-center text-white fs-4"
+                    href="cadastrar_despesas.html"><i class="bi bi-plus-square me-2 fs-4"></i>Cadastrar
+                    despesa</a></button>
+        </section>
         <div class="table-responsive mx-5 mx-lg-5 fs-4 mb-5 mb-lg-5 mb-md-5">
             <table class="table caption-top">
                 <caption>Listas de Despesas</caption>
-                <thead>
+                <thead class="bg-secondary text-light">
                     <tr>
                         <th scope="col">Data</th>
                         <th scope="col">Descrição</th>
@@ -82,49 +88,76 @@
                 <tbody class="table-group-divider table-bordered border-dark">
                     <tr>
                         <td scope="col">02 jul</td>
-                         <td scope="col">supermercado</td>
-                         <td scope="col">R$ 300,00</td>
-                        <td scope="col"><a class="link-danger"><i class="bi bi-trash3-fill"></i></a></td>
-                         <td scope="col"><a class="link-primary"><i class="bi bi-pencil-square"></i></a></td>
+                        <td scope="col">supermercado</td>
+                        <td scope="col">R$ 300,00</td>
+                        <td scope="col"><a class="link-danger"  data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
+                                    class="bi bi-trash3-fill"></i></a></td>
+                        <td scope="col"><a class="link-primary" href="editar_despesa.html"><i
+                                    class="bi bi-pencil-square"></i></a></td>
 
                     </tr>
-                       <tr>
+                    <tr>
                         <td scope="col">08 jul</td>
-                         <td scope="col">Gás</td>
-                         <td scope="col">R$ 100,00</td>
-                        <td scope="col"><a class="link-danger"><i class="bi bi-trash3-fill"></i></a></td>
-                         <td scope="col"><a class="link-primary"><i class="bi bi-pencil-square"></i></a></td>
-    
+                        <td scope="col">Gás</td>
+                        <td scope="col">R$ 100,00</td>
+                        <td scope="col"><a class="link-danger"  data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="bi bi-trash3-fill"></i></a></td>
+                        <td scope="col"><a class="link-primary" href="editar_despesa.html"><i
+                                    class="bi bi-pencil-square"></i></a></td>
+
                     </tr>
                     <tr>
                         <td scope="col">18 jul</td>
-                         <td scope="col">Manutenção da moto</td>
-                         <td scope="col">R$ 200,00</td>
-                        <td scope="col"><a class="link-danger"><i class="bi bi-trash3-fill"></i></a></td>
-                         <td scope="col"><a class="link-primary"><i class="bi bi-pencil-square"></i></a></td>
-    
+                        <td scope="col">Manutenção da moto</td>
+                        <td scope="col">R$ 200,00</td>
+                        <td scope="col"><a class="link-danger"  data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="bi bi-trash3-fill"></i></a></td>
+                        <td scope="col"><a class="link-primary" href="editar_despesa.html"><i
+                                    class="bi bi-pencil-square"></i></a></td>
+
                     </tr>
                     <tr>
                         <td scope="col">27 jul</td>
-                         <td scope="col">Compra de um tablet</td>
-                         <td scope="col">R$ 1.000,00</td>
-                        <td scope="col"><a class="link-danger"><i class="bi bi-trash3-fill"></i></a></td>
-                         <td scope="col"><a class="link-primary"><i class="bi bi-pencil-square"></i></a></td>
-    
+                        <td scope="col">Compra de um tablet</td>
+                        <td scope="col">R$ 1.000,00</td>
+                        <td scope="col"><a class="link-danger"  data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="bi bi-trash3-fill"></i></a></td>
+                        <td scope="col"><a class="link-primary" href="editar_despesa.html"><i
+                                    class="bi bi-pencil-square"></i></a></td>
+
                     </tr>
                     <tr>
                         <td scope="col">30 jul</td>
-                         <td scope="col">Pizza</td>
-                         <td scope="col">R$ 56,00</td>
-                        <td scope="col"><a class="link-danger"><i class="bi bi-trash3-fill"></i></a></td>
-                         <td scope="col"><a class="link-primary"><i class="bi bi-pencil-square"></i></a></td>
-    
+                        <td scope="col">Pizza</td>
+                        <td scope="col">R$ 56,00</td>
+                        <td scope="col"><a class="link-danger"  data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="bi bi-trash3-fill"></i></a></td>
+                        <td scope="col"><a class="link-primary" href="editar_despesa.html"><i
+                                    class="bi bi-pencil-square"></i></a></td>
+
                     </tr>
                 </tbody>
-              
-               
+
+
             </table>
         </div>
+        <!-- Modal -->
+         <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Confirmar a Exclusão?</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+         <p class="modal-title fs-5" id="exampleModalLabel">Deseja exluir a despesa selecionada?</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Sim, exluir.</button>
+      </div>
+    </div>
+  </div>
+</div>
+       
 
 
     </main>
